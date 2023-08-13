@@ -7,7 +7,7 @@
 BikeShare system
 
 ### Description
-This project uses Python to show statistics about: top common start station, trip duration, average of trip duration,...
+This project uses Python to show statistics about: top common start station, trip duration, average of trip duration, show raw data using while.
 
 ### Files used
 bikeshare_2.py, *.csv
