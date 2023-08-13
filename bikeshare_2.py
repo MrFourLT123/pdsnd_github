@@ -32,7 +32,7 @@ def input_month():
 
 def input_day():
     """
-       Input day of week: Sunday, Monday,...
+       Input day of week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
     """
     while True:
              day = input("Which day?(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday).\n")
