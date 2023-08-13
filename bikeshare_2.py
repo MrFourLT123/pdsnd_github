@@ -2,20 +2,28 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york': 'new_york.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = {
+    'chicago': 'chicago.csv',
+    'new york': 'new_york.csv',
+    'washington': 'washington.csv' 
+    }
 
-listMonth = {'January':1, 'Feburary':2, 'March':3, 'April':4, 'May':5, 'June':6}
+listMonth = {'January':1, 
+        'Feburary':2, 
+        'March':3, 
+        'April':4, 
+        'May':5, 
+        'June':6
+    }
 listDayOfWeek = {
-                "Monday": 0,
-                "Tuesday":1,
-                "Wednesday":2,
-                "Thursday":3,
-                "Friday":4,
-                "Saturday":5,
-                "Sunday":6
-               }
+    "Monday": 0,
+    "Tuesday":1,
+    "Wednesday":2,
+    "Thursday":3,
+    "Friday":4,
+    "Saturday":5,
+    "Sunday":6
+    }
 
 def input_month():
     """
@@ -32,7 +40,7 @@ def input_month():
 
 def input_day():
     """
-       Input day of week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+    Input day of week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
     """
     while True:
              day = input("Which day?(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday).\n")
