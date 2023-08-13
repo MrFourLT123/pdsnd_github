@@ -30,8 +30,7 @@ def input_month():
      Input Month for filter: January, Feburary, March, April, May, or June
     """
     while True:
-            month = input("Which month? January, Feburary, March, April, May, or June?\n")
-            month = month.capitalize()
+            month = input("Which month? January, Feburary, March, April, May, or June?\n").capitalize()
             if listMonth.get(month) is not None:
                 break
 
@@ -68,8 +67,7 @@ def get_filters():
     print('Hello! I am MrFour It! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input("Would you like to see data for Chicago, New York, or Washington?\n")
-        city = city.lower()
+        city = input("Would you like to see data for Chicago, New York, or Washington?\n").lower()
         if city == "chicago" or city == "new york" or city == "washington":
             break
 
@@ -79,8 +77,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         validOptions = ['day','month','both','none']
-        option = input("Would you like to filter the data by month, day, both, or not at all? Type 'none' for no time filter \n")
-        option = option.lower()
+        option = input("Would you like to filter the data by month, day, both, or not at all? Type 'none' for no time filter \n").lower()
         if option in validOptions:
             break
 
