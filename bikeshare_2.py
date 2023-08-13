@@ -19,7 +19,7 @@ listDayOfWeek = {
 
 def input_month():
     """
-     Input Month for filter
+     Input Month for filter: January, Feburary, March, April, May, or June
     """
     while True:
             month = input("Which month? January, Feburary, March, April, May, or June?\n")
