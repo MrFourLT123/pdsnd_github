@@ -129,7 +129,7 @@ def time_stats(df):
     # display the most common month
     month_stats = df["Start Time"].dt.month.value_counts()
     most_common_month = month_stats.idxmax()
-    print("The most common month:", most_common_month)
+    print("The most common month is:", most_common_month)
     
     # display the most common day of week
     day_stats = df["Start Time"].dt.dayofweek.value_counts()
@@ -137,7 +137,7 @@ def time_stats(df):
 
     for key, value in listDayOfWeek.items():
         if value == most_common_day:
-            print("The most common day of week:", key)
+            print("The most common day of week is:", key)
             break
 
     # display the most common start hour
