@@ -27,7 +27,7 @@ def input_month():
             if listMonth.get(month) is not None:
                 break
 
-    print("You input month: " + month)
+    print("You input month you want to view statistic: " + month)
     return month
 
 def input_day():
